@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                         // JavaScript version (ES6+ for modern features)
+      "module": "ESNext",                      // Module system (for React)
+      "moduleResolution": "node",              // Module resolution method (Node.js style)
+      "jsx": "react",                          // Support for JSX (needed for .tsx)
+      "strict": true,                          // Enable strict type checking
+      "esModuleInterop": true,                 // Support for CommonJS modules
+      "skipLibCheck": true,                    // Skip checking of declaration files
+      "forceConsistentCasingInFileNames": true // Enforce case sensitivity
+    },
+    "include": [
+      "src/**/*"                               // Include all TypeScript/TSX files in src directory
+    ]
+  }
+  
